@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: #f5f7fb;
+  color: #333;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a73e8;
+}
+
+/* BUTTON */
+.add-btn {
+  padding: 10px 20px;
+  background: #1a73e8;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.add-btn:hover {
+  background: #0f5ec4;
+}
+
+/* MAIN TABLE AREA */
+.container {
+  padding: 30px 40px;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #333;
+}
+
+/* TABLE STYLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background: #e9eef7;
+}
+
+thead th {
+  padding: 14px;
+  text-align: left;
+  font-size: 14px;
+  color: #444;
+}
+
+tbody td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  color: #555;
+}
+
+tbody tr:hover {
+  background: #f7f9fc;
+}
+
+/* ACTION ICONS */
+.actions {
+  display: flex;
+  gap: 12px;
+  font-size: 16px;
+}
+
+.actions i {
+  cursor: pointer;
+  color: #1a73e8;
+}
+
+.actions i:hover {
+  color: #0f5ec4;
+}
+
+
+

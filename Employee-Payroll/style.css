@@ -1,0 +1,429 @@
+:root {
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background: #f4f6f9;
+    color: #333;
+    font-size: 1.6rem;
+}
+.icon-img {
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4vw;
+    background: #fff;
+    box-shadow: 0 0.3rem 0.6rem rgba(0,0,0,0.1);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.page-title {
+    color: #888;
+    font-size: 1.6rem;
+}
+
+/* MAIN CONTAINER */
+.container {
+    width: 85vw;
+    margin: 5vh auto;
+    padding: 3rem;
+    background: #fff;
+    box-shadow: 0 0.3rem 1rem rgba(0,0,0,0.1);
+    border-radius: 1rem;
+}
+
+/* TOP HEADER SECTION */
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.actions {
+    display: flex;
+    gap: 1.5rem;
+}
+.search-box {
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #ccc;
+    font-size: 1.4rem;
+}
+.add-btn {
+    padding: 1rem 2rem;
+    background: #60a917;
+    color: #fff;
+    border: none;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+/* TABLE */
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.5rem;
+}
+.employee-table thead {
+    background: #353c4e;
+    color: #fff;
+}
+.employee-table th, 
+.employee-table td {
+    padding: 1.5rem;
+    text-align: left;
+}
+.employee-table tbody tr {
+    border-bottom: 0.1rem solid #ddd;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.profile img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+/* TAGS */
+.tag {
+    background: #d5f5d5;
+    color: #4c9a4c;
+    padding: 0.4rem 0.8rem;
+    margin-right: 0.5rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+/* ACTION ICONS */
+.icon {
+    cursor: pointer;
+    margin-right: 1rem;
+    font-size: 1.8rem;
+}
+.icon.delete {
+    color: red;
+}
+
+/* PAGE WRAPPER */
+.form-wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 8vh;
+}
+
+/* WHITE CARD */
+.form-card {
+    width: 70vw;
+    background: #fff;
+    padding: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.8rem 2rem rgba(0,0,0,0.08);
+}
+
+/* TITLE */
+.form-title {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 4rem;
+}
+
+/* FORM TEXT + INPUT SPACING */
+.payroll-form label {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    display: block;
+}
+.form-input {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.6rem;
+}
+
+/* PROFILE IMAGE SELECTION */
+.profile-options {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+.profile-item input {
+    margin-right: 1rem;
+}
+.profile-item img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 11rem;      /* scalable size */
+    height: auto;
+}
+.signup-btn {
+    padding: 1rem 2rem;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.6rem;
+    border-radius: 0.6rem;
+    transition: 0.3s;
+}
+.signup-btn:hover {
+    background-color: #45a049;
+}
+
+
+/* GENDER + DEPARTMENT ROWS */
+.gender-row,
+.dept-row {
+    display: flex;
+    gap: 3rem;
+    margin-top: 1.5rem;
+}
+.gender-row label,
+.dept-row label {
+    font-size: 1.6rem;
+}
+
+/* DATE ROW */
+.date-row {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+/* NOTES */
+.notes-box {
+    width: 100%;
+    height: 15vh;
+    margin-top: 1.5rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.6rem;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+/* BUTTONS */
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+.cancel-btn,
+.submit-btn,
+.reset-btn {
+    padding: 1.2rem 3rem;
+    font-size: 1.6rem;
+    border-radius: 0.6rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.cancel-btn {
+    background: #ccc;
+    color: #000;
+}
+.submit-btn {
+    background: #60a917;
+    color: #fff;
+}
+.reset-btn {
+    background: #ccc;
+    color: #000;
+}
+
+   /* SIGNUP PAGE STYLING */
+.signup-wrapper {
+    width: 40vw;
+    margin: 10vh auto;
+    background: #ffffff;
+    padding: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.08);
+}
+.signup-logo {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.signup-logo img {
+    width: 12rem;
+    height: auto;
+}
+.signup-title {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #2f2f2f;
+}
+.signup-form .form-group {
+    margin-bottom: 2rem;
+}
+.signup-form label {
+    display: block;
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+    color: #444;
+}
+.signup-form input {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.6rem;
+    background: #fafafa;
+}
+.signup-form input:focus {
+    border-color: #4caf50;
+    outline: none;
+    background: #fff;
+}
+.signup-btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.signup-btn {
+    padding: 1.2rem 2.4rem;
+    font-size: 1.6rem;
+    border-radius: 0.6rem;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+/* Primary Green Button */
+.signup-btn-primary {
+    background-color: #4caf50;
+    color: #fff;
+}
+.signup-btn-primary:hover {
+    background-color: #45a049;
+}
+
+/* Light Cancel Button */
+.signup-btn-secondary {
+    background-color: #ddd;
+    color: #333;
+}
+.signup-btn-secondary:hover {
+    background-color: #ccc;
+}
+
+/* Bottom Login Link */
+.signup-login-text {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.6rem;
+}
+
+.signup-login-text a {
+    color: #4caf50;
+    text-decoration: none;
+}
+.signup-login-text a:hover {
+    text-decoration: underline;
+}
+
+
+/* -------------------------
+   EDIT PAGE STYLING
+--------------------------*/
+
+.edit-wrapper {
+    width: 420px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.edit-logo img {
+    width: 90px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.edit-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.edit-form .form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.edit-form label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.edit-form input,
+.edit-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.edit-btn-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-btn {
+    padding: 10px 18px;
+    font-size: 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.edit-btn-primary {
+    background: #007bff;
+    color: white;
+}
+
+.edit-btn-primary:hover {
+    background: #005fcc;
+}
+
+.edit-btn-secondary {
+    background: #ccc;
+    color: #333;
+}
+
+.edit-btn-secondary:hover {
+    background: #b3b3b3;
+}

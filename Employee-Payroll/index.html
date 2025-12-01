@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Payroll System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="logo">
+        <a href="index.html">
+            <img src="logo.png" alt="Employee Payroll Logo" class="logo-img" />
+        </a>
+    </div>
+
+    <a href="signup.html" class="signup-btn">Sign Up</a>
+</header>
+
+<!-- MAIN SECTION -->
+<section class="container">
+    <div class="header-section">
+        <h2>Employee Details</h2>
+
+        <div class="actions">
+            <input type="text" placeholder="Search..." class="search-box" />
+            <a href="add-user.html" class="add-btn">+ Add User</a>
+        </div>
+    </div>
+
+    <table class="employee-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Start Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="profile"><img src="https://i.pravatar.cc/40?img=1"> Arjun Kumar</td>
+                <td>Male</td>
+                <td><span class="tag">Sales</span><span class="tag">HR</span></td>
+                <td>₹ 10,000</td>
+                <td>29 Oct 2019</td>
+                <td>
+                    <a href="edit.html"><img src="edit.png" class="icon-img"></a>
+                    <img src="delete.png" class="icon-img" onclick="this.closest('tr').remove()">
+                </td>
+            </tr>
+            <tr>
+                <td class="profile"><img src="https://i.pravatar.cc/40?img=12"> Mohammad Salman</td>
+                <td>Male</td>
+                <td><span class="tag">Sales</span></td>
+                <td>₹ 12,000</td>
+                <td>15 Jan 2020</td>
+                <td>
+                    <a href="edit.html"><img src="edit.png" class="icon-img"></a>
+                    <img src="delete.png" class="icon-img" onclick="this.closest('tr').remove()">
+                </td>
+            </tr>
+            <tr>
+                <td class="profile"><img src="https://i.pravatar.cc/40?img=5"> Rohan Patil</td>
+                <td>Male</td>
+                <td><span class="tag">Engineer</span></td>
+                <td>₹ 25,000</td>
+                <td>10 Dec 2021</td>
+                <td>
+                    <a href="edit.html"><img src="edit.png" class="icon-img"></a>
+                    <img src="delete.png" class="icon-img" onclick="this.closest('tr').remove()">
+                </td>
+            </tr>
+            <tr>
+                <td class="profile"><img src="https://i.pravatar.cc/40?img=8"> Sneha Deshmukh</td>
+                <td>Female</td>
+                <td><span class="tag">Finance</span></td>
+                <td>₹ 18,000</td>
+                <td>03 Feb 2022</td>
+                <td>
+                    <a href="edit.html"><img src="edit.png" class="icon-img"></a>
+                    <img src="delete.png" class="icon-img" onclick="this.closest('tr').remove()">
+                </td>
+            </tr>
+            <tr>
+                <td class="profile"><img src="https://i.pravatar.cc/40?img=9"> Priya Sharma</td>
+                <td>Female</td>
+                <td><span class="tag">HR</span><span class="tag">Sales</span></td>
+                <td>₹ 22,000</td>
+                <td>08 Mar 2022</td>
+                <td>
+                    <a href="edit.html"><img src="edit.png" class="icon-img"></a>
+                    <img src="delete.png" class="icon-img" onclick="this.closest('tr').remove()">
+                </td>
+            </tr>
+            <tr>
+                <td class="profile"><img src="https://i.pravatar.cc/40?img=6"> Aditya Kumar</td>
+                <td>Male</td>
+                <td><span class="tag">Engineer</span></td>
+                <td>₹ 30,000</td>
+                <td>18 Jul 2023</td>
+                <td>
+                    <a href="edit.html"><img src="edit.png" class="icon-img"></a>
+                    <img src="delete.png" class="icon-img" onclick="this.closest('tr').remove()">
+                </td>
+            </tr>
+            <tr>
+                <td class="profile"><img src="https://i.pravatar.cc/40?img=20"> Harsh Pratap Singh</td>
+                <td>Male</td>
+                <td><span class="tag">Engineer</span><span class="tag">Others</span></td>
+                <td>₹ 28,000</td>
+                <td>01 Oct 2020</td>
+                <td>
+                    <a href="edit.html"><img src="edit.png" class="icon-img"></a>
+                    <img src="delete.png" class="icon-img" onclick="this.closest('tr').remove()">
+                </td>
+            </tr>
+            <tr>
+                <td class="profile"><img src="https://i.pravatar.cc/40?img=15"> Kavita Narang</td>
+                <td>Female</td>
+                <td><span class="tag">Others</span></td>
+                <td>₹ 14,000</td>
+                <td>12 Apr 2020</td>
+                <td>
+                    <a href="edit.html"><img src="edit.png" class="icon-img"></a>
+                    <img src="delete.png" class="icon-img" onclick="this.closest('tr').remove()">
+                </td>
+            </tr>
+            <tr>
+                <td class="profile"><img src="https://i.pravatar.cc/40?img=22"> Sagar More</td>
+                <td>Male</td>
+                <td><span class="tag">HR</span></td>
+                <td>₹ 16,000</td>
+                <td>06 Aug 2021</td>
+                <td>
+                    <a href="edit.html"><img src="edit.png" class="icon-img"></a>
+                    <img src="delete.png" class="icon-img" onclick="this.closest('tr').remove()">
+                </td>
+            </tr>
+            <tr>
+                <td class="profile"><img src="https://i.pravatar.cc/40?img=25"> Radhika Pillai</td>
+                <td>Female</td>
+                <td><span class="tag">Finance</span><span class="tag">HR</span></td>
+                <td>₹ 24,000</td>
+                <td>29 Nov 2021</td>
+                <td>
+                    <a href="edit.html"><img src="edit.png" class="icon-img"></a>
+                    <img src="delete.png" class="icon-img" onclick="this.closest('tr').remove()">
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

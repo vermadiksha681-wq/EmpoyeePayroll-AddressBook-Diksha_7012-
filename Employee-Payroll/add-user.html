@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Payroll Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+    <a href="index.html" class="logo-link">
+        <img src="logo.png" alt="Employee Payroll Logo" class="logo-img"></a>
+    <div class="page-title">Add User</div>
+</header>
+
+<section class="form-wrapper">
+    <div class="form-card">
+        <h2 class="form-title">Employee Payroll Form</h2>
+        <form class="payroll-form">
+            <label>Name</label>
+            <input type="text" class="form-input" placeholder="Enter full name">
+            <label>Gender</label>
+            <div class="gender-row">
+                <label><input type="radio" name="gender"> Male</label>
+                <label><input type="radio" name="gender"> Female</label>
+            </div>
+            <label>Department</label>
+            <div class="dept-row">
+                <label><input type="checkbox"> HR</label>
+                <label><input type="checkbox"> Sales</label>
+                <label><input type="checkbox"> Finance</label>
+                <label><input type="checkbox"> Engineer</label>
+                <label><input type="checkbox"> Others</label>
+            </div>
+            <label>Salary</label>
+            <select class="form-input">
+                <option>Select Salary</option>
+                <option>₹10,000</option>
+                <option>₹15,000</option>
+                <option>₹20,000</option>
+                <option>₹25,000</option>
+            </select>
+
+            <label>Start Date</label>
+            <div class="date-row">
+                <select class="form-input">
+                    <option>Day</option>
+                </select>
+
+                <select class="form-input">
+                    <option>Month</option>
+                </select>
+
+                <select class="form-input">
+                    <option>Year</option>
+                </select>
+            </div>
+
+            <label>Notes</label>
+            <textarea class="notes-box"></textarea>
+
+            <div class="button-row">
+                <a href="index.html" class="cancel-btn">Cancel</a>
+                <button class="submit-btn">Submit</button>
+                <button type="reset" class="reset-btn">Reset</button>
+            </div>
+        </form>
+    </div>
+</section>
+</body>
+</html>
